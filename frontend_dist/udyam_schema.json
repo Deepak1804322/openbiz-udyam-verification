@@ -1,0 +1,58 @@
+{
+  "source_url": "local",
+  "extracted_on": "2025-08-12T00:00:00Z",
+  "steps": [
+    {
+      "heading": "Aadhaar & OTP",
+      "fields": [
+        {
+          "tag": "input",
+          "id": "aadhaar",
+          "name": "aadhaar",
+          "type": "text",
+          "placeholder": "Enter Aadhaar",
+          "label": "Aadhaar Number",
+          "required": true,
+          "maxlength": "12",
+          "inferred_validation": {
+            "pattern": "^\\d{12}$",
+            "description": "Aadhaar 12 digits"
+          }
+        },
+        {
+          "tag": "input",
+          "id": "otp",
+          "name": "otp",
+          "type": "text",
+          "placeholder": "Enter OTP",
+          "label": "OTP",
+          "required": true,
+          "maxlength": "6",
+          "inferred_validation": {
+            "pattern": "^\\d{4,6}$",
+            "description": "OTP 4-6 digits"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "PAN Validation",
+      "fields": [
+        {
+          "tag": "input",
+          "id": "pan",
+          "name": "pan",
+          "type": "text",
+          "placeholder": "Enter PAN",
+          "label": "PAN Number",
+          "required": true,
+          "maxlength": "10",
+          "inferred_validation": {
+            "pattern": "^[A-Z]{5}[0-9]{4}[A-Z]{1}$",
+            "description": "PAN format"
+          }
+        }
+      ]
+    }
+  ]
+}
