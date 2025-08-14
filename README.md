@@ -68,5 +68,5 @@ python -m http.server 3000
 
 ## 💡 Author
 **Developed by:** V. Deepak Reddy  
-📧 **Contact:** your-email@example.com
+📧 **Contact:**vakkaladeepakreddy2004@gmail.com
 
